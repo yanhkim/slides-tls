@@ -79,11 +79,11 @@ class: center, middle
 # DNS Spoofing vs TLS
 
 --
-- DNS 서버를 해킹해서 ea.com 도메인을 공격자의 IP 주소로 설정
+- DNS 서버를 해킹해서 tokotalk.com 도메인을 공격자의 IP 주소로 설정
 
 --
-- 공격자가 ea.com 의 인증서를 제공할 경우
-  - Handshake 과정에서 공격자는 ea.com 의 개인키가 없으므로 연결 실패
+- 공격자가 tokotalk.com 의 인증서를 제공할 경우
+  - Handshake 과정에서 공격자는 tokotalk.com 의 개인키가 없으므로 연결 실패
 
 --
 - 공격자가 자신의 인증서를 제공할 경우
